@@ -1,0 +1,57 @@
+$color-darkblue: #161E54;
+$color-green: #00FF00;
+$color-skyblue: #c0dee4;
+$color-lightblue: rgba(84, 102, 194, 0.8);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Product-sansbold','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.background-content{
+    width: 75%;
+    margin: 3% auto;
+    padding: 10px;
+    background: #d1d8da;
+    transition: transform 0.8s ease;
+    color: #2e2c2c;
+    letter-spacing: 1px;
+    box-shadow: 10px 10px 15px rgba(12, 19, 49, 0.3),-5px -5px 10px rgba(12, 19, 49, 0.3);
+}
+
+.background-content:hover{
+    transform: scale(1.05);
+    background : $color-skyblue;
+    border: 1px solid rgba(12, 19, 49, 0.5);
+
+}
+
+.btn a{
+    text-decoration: none;
+    background: $color-darkblue;
+    padding: 10px 30px;
+    color: rgb(156, 145, 145);
+    border-radius: 6%;
+    transition: all 0.5s ease-in-out;
+    margin-left:10px;
+   }
+   
+   .btn a:hover{
+       background: transparent;
+       color: #121212;
+       border: 1px solid $color-darkblue;
+   }
+
+
+
+@import "./Nav.scss";
+@import "./MatchList.scss";
+@import "./LeagueList.scss";
+@import "./CreateSquad.scss";
+@import "./Team.scss";

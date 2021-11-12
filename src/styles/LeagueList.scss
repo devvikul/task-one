@@ -1,0 +1,104 @@
+.leaguelist,
+.league-heading,
+.league-preview,
+.league-content,
+.first-section,
+.second-section,
+.Third-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leaguelist,.league-preview,.league-content{
+    width: 100%;
+    flex-direction: column;
+}
+
+.leaguelist{
+    margin-bottom: 5%;
+}
+
+
+.league-heading{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding:2% 5%;
+    margin: 5% auto;
+    background: $color-lightblue;
+    font-family: inherit;
+    position: relative;
+    color: $color-skyblue;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.league-preview{
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.first-section,
+.second-section,
+.Third-section{
+    flex-direction: row;
+    width: 100%;
+    margin: 1% 0;
+    padding: 0 25px;
+    justify-content: space-between;
+}
+
+.league-content p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    margin: 5px 10px;
+}
+
+.teams{
+    width: inherit;
+    height: 80px;
+    background: $color-lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: -1%;
+    right: 0;
+}
+
+.teams a{
+    text-decoration: none;
+    margin: 5px;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 999px;
+    background: $color-darkblue;
+}
+
+// .entry-btn a{
+//     text-decoration: none;
+//     background: #161E54;
+//     padding: 10px 30px;
+//     margin: 5%;
+//     color: rgb(156, 145, 145);
+//     border-radius: 6%;
+//     transition: all 0.5s ease-in-out;
+
+// }
+// .league-name{
+//     padding: 0 40%;
+//     width: 100%;
+// }
+
+// .league-name h1{
+//     align-content: center;
+// }
+// .first-section,
+// .second-section,
+// .third-section{
+//     display: flex;
+//     justify-content: space-around;
+//     align-content: center;
+
+// }

@@ -1,0 +1,60 @@
+.selected-Team{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.player-card,
+.team-text{
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin: auto 0;
+}
+
+.team-text{
+    flex-direction: column;
+    margin: 5% 0;
+}
+.teamItem{
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(22, 167, 8);
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(15, 39, 15, 0.7),-2px -2px 5px rgba(15, 39, 15, 0.7);
+}
+
+.teamItem img{
+    width: 30px;
+}
+
+.tItem{
+    display: flex;
+    padding: 10px 20px;
+}
+
+.player-role{
+    display: flex;
+}
+.player-role p,
+.tItem p{
+    margin: 10px;
+}
+
+.player-role p{
+    font-size: .875rem;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $color-darkblue;
+    border-radius: 100%;
+    padding: 7px;
+    cursor: pointer;
+}

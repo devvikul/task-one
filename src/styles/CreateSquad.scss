@@ -1,0 +1,131 @@
+.buttons a{
+    margin-left:10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 60%;
+    background: #f1f1f1;
+    margin: 0 10px;
+
+
+    word-break: break-all;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    margin-bottom: 5%;
+  }
+  
+  .bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+  
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+    background: #88E0EF ;
+    cursor: pointer;
+    border-bottom: 1px solid #161E54 ;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+  .tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  
+  .active-tabs  {
+    background: white;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: #161E54;
+  }
+  
+  
+  
+  button {
+    border: none;
+    
+  }
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+  .players{
+      width: 70%;
+      background-color: red;
+
+  }
+
+  .playdata{
+      width: 100%;
+      margin: 2%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+  }
+
+.playdata .image img{
+    width: 40%;
+}
+
+.squad-container{
+  display: flex;
+  justify-content: center;
+}
+
+.team-comp{
+  background-image: url(../images/cricketP.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  width: 35%;
+  max-width: 30rem;
+}
+  
+.player-about h4{
+  margin: 10px;
+}
+
+
+.Toastify__toast--error {
+  border: 1px solid #EB5757;
+  border-radius: 50px !important;
+  background: #FAE1E2 !important;
+  width: 400px;
+}

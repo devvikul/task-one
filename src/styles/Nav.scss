@@ -1,0 +1,23 @@
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    background-color: $color-darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    z-index: 1;
+}
+
+.nav-bar h1{
+    margin: 0 auto;
+    color: rgb(209, 245, 245);
+    text-shadow: 0 0 0.20em $color-skyblue;
+}
+
+@media(max-width:576px){
+    h1{
+       font-size: 1.4rem; 
+    }
+}

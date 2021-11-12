@@ -1,0 +1,5 @@
+color palette
+#88E0EF light skyblue
+#FF5151 dark pink
+#161E54 blue
+#FF9B6A light orange	
